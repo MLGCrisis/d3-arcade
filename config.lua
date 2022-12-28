@@ -26,7 +26,6 @@ Config.Arcade = {                   --cyber bar
         },
     },
             -- GABZ ARCADE!!!!!
-    --[[
     {
         NPC = {
             position = vector3(-1659.14, -1062.72, 11.17),
@@ -44,7 +43,7 @@ Config.Arcade = {                   --cyber bar
         },
     }, 
             -- FREE ARCADE!!!!! https://forum.cfx.re/t/free-mlo-arcade-bar-interior/4808151
-    {
+    --[[{
         NPC = {
             position = vector3(-1292.95, -301.69, 35.05),
             heading = 284.18,
