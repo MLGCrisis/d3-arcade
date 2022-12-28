@@ -8,11 +8,11 @@ Config.keyToOpenTicketMenu = "E"
 Config.keyToOpenComputer = "E"
 
 -- Marker for buying ticket
-Config.Arcade = {
+Config.Arcade = {                   --cyber bar
     {
         NPC = {
-            position = vector3(-1083.19, -245.78, 36.75),
-            heading = 205.11,
+            position = vector3(326.62, -924.58, 28.25),
+            heading = 4.2,
             model = "ig_claypain",
         },
         blip = {
@@ -22,7 +22,7 @@ Config.Arcade = {
             color = 0,
             name = "Arcade house",
             shortRange = true,
-            enable = true,
+            enable = false,
         },
     },
             -- GABZ ARCADE!!!!!
@@ -63,7 +63,7 @@ Config.Arcade = {
 }
 
 -- "single use" prices to be used on non gamehouse machines (e,g props in houses, etc, via qb-target. check readme.md)
-Config.singleUsePrice = 500
+Config.singleUsePrice = 50
 -- arcade machine model hashes
 Config.ArcadeModels = {
     815879628,
@@ -219,7 +219,7 @@ Config.computerList = {
         computerType = Config.GamingMachine,
         computerGPU = Config.GPUList[2],
         computerCPU = Config.CPUList[2],
-        position = vector3(-1063.7, -246.7, 44.5),
+        position = vector3(325.32, -903.32, 29.12),
         seatHash = 536071214,
     },
     {
@@ -228,7 +228,7 @@ Config.computerList = {
         computerType = Config.GamingMachine,
         computerGPU = Config.GPUList[2],
         computerCPU = Config.CPUList[2],
-        position = vector3(-1060.2, -244.85, 44.5),
+        position = vector3(327.02, -903.36, 29.12),
         seatHash = 536071214,
     },
     {
@@ -237,7 +237,7 @@ Config.computerList = {
         computerType = Config.GamingMachine,
         computerGPU = Config.GPUList[2],
         computerCPU = Config.CPUList[2],
-        position = vector3(-1055.7, -246.12, 44.5),
+        position = vector3(328.71, -903.32, 29.12),
         seatHash = 536071214,
     },
     {
@@ -246,7 +246,7 @@ Config.computerList = {
         computerType = Config.GamingMachine,
         computerGPU = Config.GPUList[2],
         computerCPU = Config.CPUList[2],
-        position = vector3(-1053.96, -241.8, 44.5),
+        position = vector3(330.35, -903.38, 29.12),
         seatHash = 536071214,
     },
     {
@@ -255,7 +255,7 @@ Config.computerList = {
         computerType = Config.GamingMachine,
         computerGPU = Config.GPUList[2],
         computerCPU = Config.CPUList[2],
-        position = vector3(-1056.14, -243.42, 44.5),
+        position = vector3(332.09, -903.39, 29.12),
         seatHash = 536071214,
     },
     {
@@ -264,7 +264,7 @@ Config.computerList = {
         computerType = Config.GamingMachine,
         computerGPU = Config.GPUList[2],
         computerCPU = Config.CPUList[2],
-        position = vector3(-1050.76, -240.9, 44.5),
+        position = vector3(337.64, -902.15, 29.12),
         seatHash = 536071214,
     },
     {
@@ -273,7 +273,7 @@ Config.computerList = {
         computerType = Config.GamingMachine,
         computerGPU = Config.GPUList[2],
         computerCPU = Config.CPUList[2],
-        position = vector3(-1050.03, -243.51, 44.5),
+        position = vector3(339.2, -902.15, 29.12),
         seatHash = 536071214,
     },
     {
@@ -282,7 +282,61 @@ Config.computerList = {
         computerType = Config.GamingMachine,
         computerGPU = Config.GPUList[2],
         computerCPU = Config.CPUList[2],
-        position = vector3(-1062.44, -248.98, 44.5),
+        position = vector3(340.95, -902.17, 29.12),
+        seatHash = 536071214,
+    },
+    {
+        -- if false player dont need a ticket to play on this computer.
+        isInGamingHouse = true,
+        computerType = Config.GamingMachine,
+        computerGPU = Config.GPUList[2],
+        computerCPU = Config.CPUList[2],
+        position = vector3(342.62, -902.18, 29.12),
+        seatHash = 536071214,
+    },
+    {
+        -- if false player dont need a ticket to play on this computer.
+        isInGamingHouse = true,
+        computerType = Config.GamingMachine,
+        computerGPU = Config.GPUList[2],
+        computerCPU = Config.CPUList[2],
+        position = vector3(344.33, -902.19, 29.12),
+        seatHash = 536071214,
+    },
+    {
+        -- if false player dont need a ticket to play on this computer.
+        isInGamingHouse = true,
+        computerType = Config.SuperMachine,
+        computerGPU = Config.GPUList[2],
+        computerCPU = Config.CPUList[2],
+        position = vector3(347.13, -909.66, 29.73),
+        seatHash = 536071214,
+    },
+    {
+        -- if false player dont need a ticket to play on this computer.
+        isInGamingHouse = true,
+        computerType = Config.SuperMachine,
+        computerGPU = Config.GPUList[2],
+        computerCPU = Config.CPUList[2],
+        position = vector3(347.13, -915.93, 29.73),
+        seatHash = 536071214,
+    },
+    {
+        -- if false player dont need a ticket to play on this computer.
+        isInGamingHouse = true,
+        computerType = Config.SuperMachine,
+        computerGPU = Config.GPUList[2],
+        computerCPU = Config.CPUList[2],
+        position = vector3(347.13, -920.09, 29.73),
+        seatHash = 536071214,
+    },
+    {
+        -- if false player dont need a ticket to play on this computer.
+        isInGamingHouse = true,
+        computerType = Config.SuperMachine,
+        computerGPU = Config.GPUList[2],
+        computerCPU = Config.CPUList[2],
+        position = vector3(347.11, -928.65, 29.73),
         seatHash = 536071214,
     },
 }
