@@ -39,7 +39,7 @@ Config.Arcade = {                   --cyber bar
             color = 0,
             name = "Arcade house",
             shortRange = true,
-            enable = true,
+            enable = false,
         },
     }, 
             -- FREE ARCADE!!!!! https://forum.cfx.re/t/free-mlo-arcade-bar-interior/4808151
