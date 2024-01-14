@@ -14,7 +14,7 @@ client_scripts {
 	"client/main.lua",
 	"client/class/*.lua",
 	"client/events.lua",
-	"client/threads.lua",
+	--"client/threads.lua",
 }
 
 server_script {
@@ -30,7 +30,7 @@ files {
 	"html/css/reset.css",
 	
 	"html/css/img/monitor.png",
-	"html/css/img/table.png",
+	--"html/css/img/table.png",
 	
 	"html/*.html",
 	
