@@ -20,6 +20,7 @@ function playerBuyTicketMenu()
         index = index + 1
         ticketMenu.AddItem(index, _U("ticket_label", k) .. " <span style='color: green;'>$" .. v.price .. "</span>", function()
             TriggerServerEvent("d3-arcade:buyTicket", k)
+            TriggerEvent('wais:addmissionxp:buyTicket', 1) -- added by Pamela for wais battlepass
             ticketMenu.Destroy()
         end)
     end
